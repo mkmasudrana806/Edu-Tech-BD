@@ -1,3 +1,8 @@
+/* this property just for large amount top margin  */
+.top-spacing{
+    margin-top:100px;
+    margin-bottom: 50px;
+}
 /* this is the caurosel design properties with transparent  */
 .carousel-item::before{
     content: "";
@@ -10,18 +15,7 @@
    background-color: black;
    opacity: 0.5;
 }
-/* only for caurosel heading for larger devic */
-@media only screen and (min-width:992px) and (max-width:1600px){
-    .carousel-caption h1{
-        font-size: 60px;
-     }
-    
-}
 
-.top-spacing{
-    margin-top:100px;
-    margin-bottom: 50px;
-}
 
 /* footer section 
  */
@@ -39,4 +33,21 @@
     padding: 15px;
     background-color: rgb(37, 35, 35);
     border-radius: 50px;
+}
+
+/* ----------------------------------------------------------------
+                        below is the media query 
+-------------------------------------------------------------------*/
+/* only for caurosel heading for larger devic */
+@media only screen and (min-width:992px) and (max-width:1600px){
+    .carousel-caption h1{
+        font-size: 60px;
+     }
+}
+
+/* media query apply on caurosel section just top margin when mobile device view */
+@media screen and (max-width:776px){
+    #margin-top-mobile-view{
+   margin-top: 200px;
+    }
 }
