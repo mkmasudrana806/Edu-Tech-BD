@@ -1,4 +1,4 @@
-
+/* this is the caurosel design properties with transparent  */
 .carousel-item::before{
     content: "";
     display: block;
@@ -10,9 +10,33 @@
    background-color: black;
    opacity: 0.5;
 }
+/* only for caurosel heading for larger devic */
 @media only screen and (min-width:992px) and (max-width:1600px){
     .carousel-caption h1{
         font-size: 60px;
      }
     
+}
+
+.top-spacing{
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+
+/* footer section 
+ */
+ footer{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+/* footer social icon design  */
+
+.social-font p {
+    width: 55px;
+    color: white;
+    padding: 15px;
+    background-color: rgb(37, 35, 35);
+    border-radius: 50px;
 }

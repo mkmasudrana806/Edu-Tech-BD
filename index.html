@@ -1,3 +1,5 @@
+<!-- Note : i am using lg for desktop mode and md for tablet mode  -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,6 +16,8 @@
 
     <!-- here is the custom css link  -->
     <link rel="stylesheet" href="CSS/styles.css" />
+    <!-- here is the fontawesome script link or kits link  -->
+    <script src="https://kit.fontawesome.com/742c82c001.js" crossorigin="anonymous"></script>
   </head>
   <body>
 <header class="container mb-5">
@@ -23,7 +27,6 @@
           <div class="container-fluid">
             <a class="navbar-brand fs-3 fw-bold" href="#">Edu Tech BD</a>
             <div class="navbar w-100">
-              <!-- which tag i want to collapse just need to add id(which id should same as collapse button id) and collapse collapse class add -->
               <ul
                 class="navbar-nav me-auto mb-2 mb-lg-0 collapse navbar-collapse"
                 id="navbarSupportedContent"
@@ -138,7 +141,7 @@
 <!-- main start  -->
 <main class="container"> 
   <!-- our popular coureses section  -->
-<section class="my-5">
+<section class="top-spacing">
   <div class="row text-center d-flex justify-content-center">
     <div class="col-lg-6 col-md-8 col-sm-10 col-12">
       <div>
@@ -266,12 +269,12 @@
 <!-- our popular courses list end  -->
 
 <!-- earning institute section start  -->
-<section class="container my-5">
-  <div class="row">
+<section class="container top-spacing">
+  <div class="row bg-light">
     <div class="col-md-6 col-12 col-lg-6">
 <img class="w-100 h-100 ms-0" src="images/working.png" alt="">
     </div>
-    <div class="col-lg-6  col-md-6 col-12 my-5 p-3 d-flex justify-content-center align-items-center bg-light">
+    <div class="col-lg-6  col-md-6 col-12 my-5 p-3 d-flex justify-content-center align-items-center ">
 <div >
   <h1 class="fw-bolder">Explore The elearning
     Institute</h1>
@@ -295,6 +298,8 @@
             <h5>Rating & Review</h5>
           </div>
         </div>
+        <br>
+        <button type="button" class="btn btn-primary btn-lg">See More</button>
 </div>
     </div>
   </div>
@@ -340,7 +345,7 @@
 
 
 <!-- meet our successfull student start  -->
-<section>
+<section class="top-spacing">
 <div class="col-lg-5 col-md-10">
   <h1>Meet Our Successfull
     Students</h1>
@@ -401,7 +406,7 @@
 
 
 <!-- frequently asked question section start  -->
-<section class="container my-5">
+<section class="container top-spacing">
   <div class="row d-flex justify-content-center">
     <div class="col-md-12 col-lg-8 col-12">
 
@@ -486,7 +491,7 @@
 <!-- frequently asked question section end  -->
 
 <!-- trusted companies section start  -->
-<section class="container">
+<section class="container d-lg-block d-none top-spacing">
   <h1 class="fw-bolder text-center">Trusted by over 800+ companies</h1>
 <div class="d-flex justify-content-between my-5">
   <div>
@@ -512,19 +517,37 @@
   <div>
     <img class="w-75" src="images/company/company-6.png" alt="">
   </div>
- 
 </div>
+
 </section>
 <!-- trusted companies section end  -->
-
-
-
-
-
-
 </main>
 <!-- main end  -->
 
+<!-- footer section start  -->
+<footer class="bg-black">
+  <section class=" text-white ">
+      <div class="col-10 text-center">
+        <h2>Edu Tech BD</h2>
+        <p>Office 41, Zawaya Buildin, Ghala Muscat, 
+          Sultanate of Oman</p>
+          <p>Privacy Ploicy | Terms of use</p>
+          <div class="d-flex justify-content-center">
+            <div class="social-font d-flex justify-content-evenly col-10">
+                <p><i class="fa-brands fa-facebook-f"></i></p>
+             
+                <p><i class="fa-brands fa-twitter"></i></p>
+             
+                <p><i class="fa-brands fa-linkedin-in"></i></p>
+             
+                <p> <i class="fa-brands fa-tiktok"></i></p>
+            
+            </div>
+          </div>
+      </div>
+  </section>
+</footer>
+<!-- footer section end  -->
 
     <!-- here i am linking javascript file  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
