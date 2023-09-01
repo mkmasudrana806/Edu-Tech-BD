@@ -19,7 +19,12 @@ Live Site: https://mkmasudrana806.github.io/Edu-Tech-BD/
 
 GitHub Repo: https://github.com/mkmasudrana806/Edu-Tech-BD
 
+### Demo Pictures
+## Home Page 
+![Home Page](https://github.com/mkmasudrana806/Edu-Tech-BD/assets/86706671/3bb0f51c-dec8-40a9-bb49-bea637ff801b)
 
+### Succesfull Students
+![Succesfull Students](https://github.com/mkmasudrana806/Edu-Tech-BD/assets/86706671/c257d9d5-2101-44ff-a06d-51b87e55d55f)
 
 
 
